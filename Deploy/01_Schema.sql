@@ -1,6 +1,8 @@
 use testbed
 GO
-
+/*
+    Create table header
+*/
 create table dbo.test_table(
     ID int identity(1,1),
     CustomerName varchar(255) not null,
