@@ -1,6 +1,6 @@
 use testbed
 GO
 
-inset into dbo.test_table (CustomerName, CustomerType)
-values ('Hank', 'tank'),
-    ('John', 'Tron')
+insert into dbo.test_table(CustomerName, CustomerType)
+values ('Hank', 5),
+    ('John', 3)
